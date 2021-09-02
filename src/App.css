@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.Loading {
+  font-style: italic blue;
+}
+.container {
+  text-align: center;
+  background-color: darkturquoise;
+  flex-wrap: wrap;
+}
+
+.ListItems {
+  font-style: italic;
+  flex-wrap: wrap;
+  text-align: center;
+  color:crimson ;
+}
+
+.header {
+  font-size: 55px;
+  color: blue
+}
+
+.btn {
+  border:slategrey;
+  border-style: dashed;
+  cursor: pointer;
+  color: rgb(162, 0, 255);
+  font-size: 20px;
+  animation: ease-in;
+}
